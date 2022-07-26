@@ -11,12 +11,17 @@ body {
   background-position: left;
 }
 
+.logo-text {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
   height: 250px;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
 }
 
@@ -32,8 +37,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
