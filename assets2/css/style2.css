@@ -1,0 +1,40 @@
+* {
+    font-family: 'Pacifico', cursive;
+}
+
+.header {
+    font-size: 2em;
+    padding: 1em 2em 2em 3.5em;
+    background-image: url(../imgs/1800x320.png);
+    height: 10em;
+    border: solid 0.05em black;
+    border-radius: 0em 0em 0.5em 0.5em;
+}
+
+.products {
+    margin: 5em 5em 5em 32em;
+}
+
+.productsimg {
+    width: 22em;
+    margin-bottom: 2em;
+    border-radius: 2em;
+}
+
+td p {
+    padding-left: 1.5em;
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: rgb(182, 182, 182);
+    height: 3em;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid 0.05em black;
+    border-radius: 0.5em 0.5em 0em 0em;
+}
+
+a {
+    text-decoration: none;
+}
