@@ -1,19 +1,39 @@
-body {
+* {
   font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
 /* Hero Section */
 
 #Hero-Section {
   background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  max-height: 80vh;
+  background-position: center;
+
 }
+
 
 .h1custom {
   text-shadow: 3px 3px #000;
+  font-size: 4em;
+
 }
+
+.buttomcustom {
+  text-align: center;
+  margin-top: 500px;
+
+}
+
+.buttomcustom button {
+  margin: 10px;
+}
+
+
 
 .buttomcustom a {
   text-decoration: none;
@@ -34,6 +54,7 @@ body {
   text-shadow: 2px 2px #000;
 }
 
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -50,7 +71,29 @@ body {
   color: #373a3c;
 }
 
+
+@media (max-width: 1280px) {
+  #Hero-Section {
+    max-height: 50vh;
+    min-height: 50vh;
+  }
+
+  .h1custom {
+    font-size: 2.2em;
+  }
+
+  .buttomcustom {
+    opacity: 0;
+  }
+
+}
+
 @media (max-width: 768px) {
+  #Hero-Section {
+    max-height: 40vh;
+    min-height: 40vh;
+  }
+
   #Contacto form label {
     font-weight: 400;
   }
@@ -58,4 +101,23 @@ body {
   .navbar-brand {
     width: 100px;
   }
+}
+
+@media (max-width:576px) {
+  #Hero-Section {
+    max-height: 30vh;
+    min-height: 30vh;
+  }
+
+  .h1custom {
+    font-size: 1.2em;
+  }
+
+  .container-custom {
+    max-width: 576px;
+
+  }
+
+
+
 }
